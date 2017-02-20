@@ -1,15 +1,14 @@
-package skedgo.anim;
+package skedgo.activityanimations;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
-import android.support.v7.app.AppCompatActivity;
 
-import skedgo.activityanimations.R;
+import skedgo.rxlifecyclecomponents.RxAppCompatActivity;
 
-public abstract class AnimatedTransitionActivity extends AppCompatActivity {
+public abstract class AnimatedTransitionActivity extends RxAppCompatActivity {
   private static final String KEY_HAS_CUSTOM_ANIMATION =
       AnimatedTransitionActivity.class.getSimpleName() + ".hasCustomAnimation";
 

@@ -1,4 +1,4 @@
-package skedgo.anim;
+package skedgo.activityanimations;
 
 import android.content.Intent;
 
@@ -11,8 +11,8 @@ import skedgo.activityanimations.BuildConfig;
 
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
-import static skedgo.anim.AnimatedTransitionActivity.hasCustomAnimation;
-import static skedgo.anim.AnimatedTransitionActivity.setHasCustomAnimation;
+import static skedgo.activityanimations.AnimatedTransitionActivity.hasCustomAnimation;
+import static skedgo.activityanimations.AnimatedTransitionActivity.setHasCustomAnimation;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(constants = BuildConfig.class, sdk = 21)

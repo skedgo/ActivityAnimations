@@ -32,6 +32,7 @@ dependencies {
   testCompile 'junit:junit:4.12'
   testCompile 'org.robolectric:robolectric:3.0'
 
+  provided 'com.trello:rxlifecycle:1.0'
   provided 'com.github.skedgo:RxLifecycleComponents:v1.0'
   provided 'com.android.support:appcompat-v7:25.1.1'
 }
